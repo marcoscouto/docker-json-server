@@ -1,7 +1,6 @@
 FROM node:latest
-MAINTAINER Christian Lück <christian@lueck.tv>
 
-RUN npm install -g json-server-auth
+RUN npm install -g json-server && npm install -g json-server-auth
 
 WORKDIR /data
 VOLUME /data
