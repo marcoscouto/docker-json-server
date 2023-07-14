@@ -4,6 +4,12 @@ This is a json-server-auth [docker](https://www.docker.io) image adapted from [@
 
 This image has all funcionalities above and others from [json-auth-server](https://www.npmjs.com/package/json-server-auth)
 
+The recommended way to run this container looks like this:
+
+```bash
+$ docker run -d -p 80:80 -v /home/user/articles.json:/data/db.json coutomarcos/json-server-auth
+```
+
 -------------------------------------------------------------
 
 [JSON Server](https://github.com/typicode/json-server) provides REST API mocking based on plain JSON.
