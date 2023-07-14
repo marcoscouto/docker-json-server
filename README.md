@@ -7,7 +7,7 @@ This image has all funcionalities above and others from [json-auth-server](https
 The recommended way to run this container looks like this:
 
 ```bash
-$ docker run -d -p 80:80 -v /home/user/articles.json:/data/db.json coutomarcos/json-server-auth
+$ docker run -d -p 80:80 -v {user_path}/data/:/data/ coutomarcos/json-server-auth
 ```
 
 -------------------------------------------------------------
