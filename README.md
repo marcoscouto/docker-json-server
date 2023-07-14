@@ -1,5 +1,11 @@
 # docker-json-server
 
+This is a json-server-auth [docker](https://www.docker.io) image adapted from [@clue](https://github.com/clue).
+
+This image has all funcionalities above and others from [json-auth-server](https://www.npmjs.com/package/json-server-auth)
+
+-------------------------------------------------------------
+
 [JSON Server](https://github.com/typicode/json-server) provides REST API mocking based on plain JSON.
 This is a [docker](https://www.docker.io) image that eases setup.
 
